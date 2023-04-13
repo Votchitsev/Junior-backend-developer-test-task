@@ -55,3 +55,4 @@ make run
 ```
 make stop
 ```
+4. Отправить GET-запрос на `http://localhost:3000/`

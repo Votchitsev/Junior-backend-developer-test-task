@@ -90,7 +90,7 @@ async function writeToDatabase (resultList, database) {
         RETURNING true;`
       )
 
-      return `${name.title} ${name.first} ${name.last} has been add to database!`
+      return `${name.title} ${name.first} ${name.last} has been added to database!`
     } catch (error) {
       return error;
     }

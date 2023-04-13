@@ -7,7 +7,7 @@ const writeToDatabase = require('./Database');
 const app = express()
 const port = 3000
 
-const db = pgp(`postgres://${process.env.DB_USER}:${process.env.DB_PASSWORD}@localhost:5432/postgres`);
+const db = pgp(`postgres://postgres:${process.env.DB_PASSWORD}@localhost:5432/postgres`);
 
 app.get('/', async (req, res) => {
 
